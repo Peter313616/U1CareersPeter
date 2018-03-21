@@ -1,0 +1,17 @@
+<Window x:Class="U1CareersPeter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:U1CareersPeter"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Canvas>
+        <Button Content="University Info" x:Name="btnA" Click="btnA_Click" Canvas.Left="10"  Canvas.Top="25" Width="90"/>
+        <Button Content="Requirements"    x:Name="btnB" Click="btnB_Click" Canvas.Left="145" Canvas.Top="25" Width="90"/>
+        <Button Content="Requirments"     x:Name="btnC" Click="btnC_Click" Canvas.Left="283" Canvas.Top="25" Width="90"/>
+        <Button Content="Careers"         x:Name="btnD" Click="btnD_Click" Canvas.Left="417" Canvas.Top="25" Width="90"/>
+        <Label  Content="Click a Button to show content" x:Name="lblInfo"   Canvas.Left="10" Canvas.Top="107.8"/>
+        <Image  x:Name="imgInfo" Height="115" Canvas.Left="332" Canvas.Top="195" Source="https://www.theglobeandmail.com/resizer/HMDFSM3OPXjtGCLYsB9ihVm5PX4=/1200x0/filters:quality(80)/arc-anglerfish-tgam-prod-tgam.s3.amazonaws.com/public/5ODYPH32TFFJ3HIR64NKQM5V6U.JPG" Width="174"/>
+    </Canvas>
+</Window>
